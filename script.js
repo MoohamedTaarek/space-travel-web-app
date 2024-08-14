@@ -17,7 +17,7 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
     }
 
     
-     form = document.getElementById('Regestration-form');
+     var form = document.getElementById('Regestration-form');
 
     
     form.addEventListener('submit', function(event) {
